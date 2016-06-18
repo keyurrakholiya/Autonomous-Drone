@@ -1,0 +1,10 @@
+\BOOKMARK [1][-]{section.1}{Objective}{}% 1
+\BOOKMARK [1][-]{section.2}{Prerequisites}{}% 2
+\BOOKMARK [1][-]{section.3}{Hardware Requirement}{}% 3
+\BOOKMARK [1][-]{section.4}{Procedure}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Connecting to RPi with an SSH/Telnet client}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{Install the required packages on the Raspberry Pi}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.3}{Disable the OS control of the serial port}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.4}{Testing the connection}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.5}{Configure MAVProxy to always run}{section.4}% 9
+\BOOKMARK [1][-]{section.5}{References}{}% 10
