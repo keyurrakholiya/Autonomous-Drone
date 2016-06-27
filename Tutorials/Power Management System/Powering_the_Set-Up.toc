@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Objective}{3}{section.1}
+\contentsline {section}{\numberline {2}Hardware Requirement}{3}{section.2}
+\contentsline {section}{\numberline {3}Assembly}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Problem Faced}{3}{subsection.3.1}
+\contentsline {paragraph}{•}{3}{section*.2}
+\contentsline {subsection}{\numberline {3.2}Mounting the R-pi}{3}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Powering the Rpi from APM}{4}{subsection.3.3}
