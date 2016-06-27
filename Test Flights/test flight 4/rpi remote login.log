@@ -1,0 +1,148 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.16)  27 JUN 2016 22:01
+entering extended mode
+**"./rpi remote login.tex"
+("rpi remote login.tex"
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+
+("C:\Users\keyurRakholiya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\arti
+cle.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+
+("C:\Users\keyurRakholiya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size
+11.clo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\keyurRakholiya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\
+graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\keyurRakholiya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\
+keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\keyurRakholiya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\
+graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\keyurRakholiya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\
+trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Users\keyurRakholiya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\
+graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+("C:\Users\keyurRakholiya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-de
+f\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Users\keyurRakholiya\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdie
+k\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Users\keyurRakholiya\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdie
+k\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+No file "rpi remote login".aux.
+\openout1 = `"rpi remote login.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+
+("C:\Users\keyurRakholiya\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\su
+pp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count88
+\scratchdimen=\dimen105
+\scratchbox=\box26
+\nofMPsegments=\count89
+\nofMParguments=\count90
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count91
+\MPscratchDim=\dimen106
+\MPnumerator=\count92
+\makeMPintoPDFobject=\count93
+\everyMPtoPDFconversion=\toks16
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 20.
+ [1
+
+{C:/Users/keyurRakholiya/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+No file "rpi remote login".toc.
+\tf@toc=\write3
+\openout3 = `"rpi remote login.toc"'.
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 35--42
+
+ []
+
+! Undefined control sequence.
+<recently read> \url 
+                     
+l.47 		\url
+           {https://github.com/eYSIP-2016/Autonomous-Drone}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[3] ("rpi remote login.aux") ) 
+Here is how much of TeX's memory you used:
+ 1123 strings out of 493634
+ 15329 string characters out of 3131567
+ 69452 words of memory out of 3000000
+ 4553 multiletter control sequences out of 15000+200000
+ 7580 words of font info for 27 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 27i,6n,19p,272b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/keyurRakholiya/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/keyurRakholiya/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Us
+ers/keyurRakholiya/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><C:/Users/keyurRakholiya/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on "rpi remote login.pdf" (3 pages, 60204 bytes).
+PDF statistics:
+ 28 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,53 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	e-Yantra, IIT-Bombay
+
+%	Document Author: Saurav Shandilya
+%	Date: 16-August,2012
+%	Last Editted by: Saurav
+%   Date Last updated: 31-05-2016 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{graphicx}
+\title{Manual flight using Raspberry pi}
+\author{keyur Rakholiya}
+\author{akshit gandhi}
+\date{\today}
+
+\begin{document}
+	\maketitle
+	\newpage
+	\tableofcontents
+	\newpage
+	\section{Tutorial Name}
+		Manual Flight using Raspberry pi
+
+	\section{Hardware Requirement}
+		Drone with APM2.6 Controller\\
+		Raspberry Pi B+
+
+	\section{Software Requirement}
+		Mission planner software\\
+		Moboxterm for Raspberry pi
+	\section{Theory and Description}
+		we have connected R pi to Apm through UARTs. we have also connect GPIO of Rpi to INPUT of APM.\\
+		so we have two type of communication.\\
+		1)through UARTS\\
+		2)through GPIO(one way communication)\\
+		\\
+		we actually get feed back from APM through UART port. we are generating PWM Signal through R pi's GPIO.
+		so we have removed remote(RC control) input from APM.
+	\section{Experiment}
+		now, we have one indoor flight in which ,we can control drone through our key board keys.\\
+		we have noticed that its very stable and more accurate then remote control.
+	\section{Exercise}
+		whole python code for raspberry pi is given on github.\\
+		\url{https://github.com/eYSIP-2016/Autonomous-Drone}
+
+	
+\end{document}
+
+
+
