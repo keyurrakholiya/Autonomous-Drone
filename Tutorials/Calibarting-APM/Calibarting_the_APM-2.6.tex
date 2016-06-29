@@ -14,7 +14,7 @@
 \usepackage{hyperref}
 \usepackage{float}
 \title{Calibrating the APM}
-\author{Akshit Gandhi}
+\author{Akshit Gandhi \\ Keyur Rakholiya}
 \date{\today}
 
 \begin{document}
@@ -26,12 +26,13 @@
 	Topic: Calibrating the APM 2.6/2.5
 		In this tutorial we will learn to how to calibrate our APM flight controller. We will be going into details of each step.
 	\section{Prerequisites}
-	 It's better if you first go through the official documentation on ardupilot's website. The link is: \url{http://ardupilot.org/copter/index.html}, it will be beneficial also for this tutorial and also for later tutorials.
+	 It's better if you first go through the official documentation on ardupilot's website. The link is: \url{http://ardupilot.org/copter/index.html}, it will be beneficial also for this tutorial and also for later tutorials. Install Mission Planner Software link is: \url{http://firmware.ardupilot.org}
 	\section{Hardware Requirement}
 	 Drone or Quadcopter, USB cable, a Computer.
 	\section{Calibration Process}
 	 So, now we start with the process of calibrating the APM. \textbf{Note:} There is are lot's of improvement going on with the APM firmwares and with the associated softwares, so it is advised that you use a more latest software and firmware as it is a refinement of the previous version, but at the time we were working on this project we found that the latest firmware for APM-2.6 was ACv3.3.3 but no-where we could find this firmware so we switched to a previous firmware which was ACv3.2.1 and also to ACv3.1.5.
-	 \paragraph{•}We also found out that the latest version of Mission Planner should support for the latest version of the APM firmware, so we had to switch to a more previous version of the Mission Planner software. Mission Planner is software which will help us throughout the calibration process and many more times as we will see later. The Mission Planner Software we are using is V1.3.30 which should look something like this: 
+	 \paragraph{•}Mission Planner is a ground control station for Plane, Copter and Rover. It is compatible with Windows only. Mission Planner can be used as a configuration utility or as a dynamic control supplement for your autonomous vehicle.
+	 \paragraph{•}We found out that the latest version of Mission Planner should support for the latest version of the APM firmware, so we had to switch to a more previous version of the Mission Planner software. Mission Planner is software which will help us throughout the calibration process and many more times as we will see later. The Mission Planner Software we are using is V1.3.30 which should look something like this: 
 	 \begin{figure}[H]
 	 	\centering
 		\includegraphics[scale=0.35]{mission}
@@ -40,7 +41,7 @@
 	 \subsection{Installing Mission Planner}
 	 The very first step is to install the mission planner software. It is known as GCS or Ground control system. It can be downloaded form here: \url{http://firmware.ardupilot.org/Tools/MissionPlanner/MissionPlanner-latest.msi} \textbf{Note} This link will automatically download the latest version, so if you want to download the previous versions than you can go to \url{http://firmware.ardupilot.org}
 	 \paragraph{•}After downloading the software go through the installation process. Follow the instructions to complete the setup process. The installation utility will automatically install any necessary software drivers. If you receive a DirectX installation error, please update your DirectX plug-in from the DirectX Download Center link is: \url{http://www.microsoft.com/en-us/download/details.aspx?id=35}.
-	 \paragraph{}If you receive the warning pictured here, select Install this driver software anyway to continue.
+	 \paragraph{}If you receive the warning pictured in Fig 2, select Install this driver software anyway to continue.
 	 \begin{figure}[H]
 	 	\centering
 		\includegraphics[scale=0.75]{driver}

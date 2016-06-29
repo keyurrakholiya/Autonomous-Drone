@@ -3,26 +3,27 @@
 \contentsline {section}{\numberline {3}Hardware Requirement}{3}{section.3}
 \contentsline {section}{\numberline {4}Calibration Process}{3}{section.4}
 \contentsline {paragraph}{•}{3}{section*.2}
+\contentsline {paragraph}{•}{3}{section*.3}
 \contentsline {subsection}{\numberline {4.1}Installing Mission Planner}{4}{subsection.4.1}
-\contentsline {paragraph}{•}{4}{section*.3}
-\contentsline {paragraph}{}{4}{section*.4}
+\contentsline {paragraph}{•}{4}{section*.4}
+\contentsline {paragraph}{}{4}{section*.5}
 \contentsline {subsection}{\numberline {4.2}Loading Firmware into APM 2.6}{5}{subsection.4.2}
 \contentsline {subsubsection}{\numberline {4.2.1}Connection}{5}{subsubsection.4.2.1}
 \contentsline {subsubsection}{\numberline {4.2.2}Connect to Mission Planner}{6}{subsubsection.4.2.2}
 \contentsline {subsubsection}{\numberline {4.2.3}Install firmware}{6}{subsubsection.4.2.3}
-\contentsline {paragraph}{•}{6}{section*.5}
+\contentsline {paragraph}{•}{6}{section*.6}
 \contentsline {subsection}{\numberline {4.3}Calibrating the APM}{7}{subsection.4.3}
-\contentsline {paragraph}{•}{7}{section*.6}
 \contentsline {paragraph}{•}{7}{section*.7}
+\contentsline {paragraph}{•}{7}{section*.8}
 \contentsline {subsection}{\numberline {4.4}Testing}{7}{subsection.4.4}
 \contentsline {subsection}{\numberline {4.5}Troubleshooting}{7}{subsection.4.5}
-\contentsline {paragraph}{}{7}{section*.8}
 \contentsline {paragraph}{}{7}{section*.9}
 \contentsline {paragraph}{}{7}{section*.10}
 \contentsline {paragraph}{}{7}{section*.11}
-\contentsline {paragraph}{So, if you follow this tutorial properly you should be able to calibrate the APM successfully. You may face some errors like INS not calibrated, Compass/Gyro bad health, RC not calibrated, we suggest that you should go through the process once again and if the error persists then you can find about it's troubleshooting on the net!}{8}{section*.12}
+\contentsline {paragraph}{}{7}{section*.12}
+\contentsline {paragraph}{So, if you follow this tutorial properly you should be able to calibrate the APM successfully. You may face some errors like INS not calibrated, Compass/Gyro bad health, RC not calibrated, we suggest that you should go through the process once again and if the error persists then you can find about it's troubleshooting on the net!}{8}{section*.13}
 \contentsline {section}{\numberline {5}References}{8}{section.5}
-\contentsline {paragraph}{•}{8}{section*.13}
 \contentsline {paragraph}{•}{8}{section*.14}
 \contentsline {paragraph}{•}{8}{section*.15}
-\contentsline {paragraph}{}{8}{section*.16}
+\contentsline {paragraph}{•}{8}{section*.16}
+\contentsline {paragraph}{}{8}{section*.17}
