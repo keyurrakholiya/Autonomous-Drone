@@ -14,7 +14,8 @@
 \usepackage{hyperref}
 \usepackage{float}
 \title{Interfacing Raspberry-pi with APM flight controller}
-\author{Akshit Gandhi}
+\author{Akshit Gandhi \\ Keyur Rakholiya}
+
 \date{\today}
 
 \begin{document}
@@ -23,14 +24,16 @@
 	\tableofcontents
 	\newpage
 	\section{Objective}
-	Topic: Interfacing Raspberry-pi with APM flight controller
-		In this tutorial we will learn to how to setup a communication between the r-pi and APM flight controller, so that we can run/write our python scripts on r-pi and execute them on our drone. We will be going into details of each step.
+	Topic: Interfacing Raspberry-pi with APM(ARDUPILOT) flight controller
+			APM is a flight controller which performs the stabilization of quadcopter by varying the signal to the motors based upon Radio control input. It has different flight modes which we can set from remote. It also supports different sensors like GPS ,Sonar etc.
+		In this tutorial we will learn to how to setup a communication between the 
+		 and APM flight controller, so that we can run/write our python scripts on R-PI and execute them on our drone. We will be going into details of each step.
 	\section{Prerequisites}
-	 It's better if you first go through the official documentation on ardupilot's website on connecting r-pi with APM. The link is: \url{http://ardupilot.org/dev/docs/raspberry-pi-via-mavlink.html}, it will be beneficial also for this tutorial and also for later tutorials.
+	 It's better if you first go through the official documentation on ardupilot's website on connecting R-PI		 with APM.\textbf{[1]}, it will be beneficial also for this tutorial and also for later tutorials.
 	\section{Hardware Requirement}
-	 Drone or Quadcopter, Raspberry pi, telemetry port connector for connecting APM to r-pi and few jumpers(M-F).
+	 Drone or Quadcopter, Raspberry pi, telemetry port connector for connecting APM to RPI and few jumpers(M-F).
 	\section{Procedure}
-	This tutorial explains how to connect and configure a Raspberry Pi (RPi) so that it is able to communicate with a APM flight controller using the MAVLink protocol over a serial connection
+	This tutorial explains how to connect and configure a Raspberry Pi (RPi) so that it is able to communicate with a APM flight controller using the MAVLink protocol\textbf{[2]} over a serial connection
 	 \begin{figure}[H]
 	 	\centering
 		\includegraphics[scale=0.35]{wiring}
@@ -51,9 +54,13 @@ To avoid the requirement to plug a keyboard, mouse and HDMI screen into your RPi
 	\item Determine the RPi’s IP address:
 	\begin{itemize}
 		\item If you have access to the RPi’s terminal screen (i.e.you have a screen, keyboard, mouse connected) you can use the /sbin/ifconfig command.
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.37]{ip}
+				\caption{ip address on terminal.}
+			\end{figure}
 		\item If your Ethernet router has a web interface it may show you the IP address of all connected devices
-	\end{itemize}
-	\item Connect with Putty:
+	\end{itemize}	\item Connect with Putty:
 		\begin{figure}[H]
 	 	\centering
 		\includegraphics[scale=0.37]{putty}
@@ -95,6 +102,14 @@ Reboot the Raspberry Pi when you are done.
 			\begin{itemize}
 				\item sudo -s
 				\item mavproxy.py --master=/dev/ttyAMA0 --baudrate 57600 --aircraft MyCopter
+				
+				raspberry pi's default port is connected with console input/output. so use this port we have to disable it first. now we have connected our device via UART port ot R-Pi. so "/dev/ttyAMA0" is a port for serial communication between R-pi and APM. 
+				
+				You configure BaudRate as bits per second. The transferred bits include the start bit, the data bits, the parity bit (if used), and the stop bits. However, only the data bits are stored.
+				
+				The baud rate is the rate at which information is transferred in a communication channel. In the serial port context, "9600 baud" means that the serial port is capable of transferring a maximum of 9600 bits per second. If the information unit is one baud (one bit), the bit rate and the baud rate are identical. If one baud is given as 10 bits, (for example, eight data bits plus two framing bits), the bit rate is still 9600 but the baud rate is 9600/10, or 960. You always configure BaudRate as bits per second. Therefore, in the previous example, set BaudRate to 9600.
+				
+				 
 				Note: In the above command it's MyCopter and My-Copter
 				\item Once MAVProxy has started you should be able to type in the following command to display the \texttt{ARMING\_CHECK} parameters value
 				\begin{itemize}
@@ -127,9 +142,11 @@ Reboot the Raspberry Pi when you are done.
 \paragraph{•}It is also worth noting that MAVProxy can do a lot more than just provide access to your APM. By writing python extension modules for MAVProxy you can add sophisticated autonomous behaviour to your vehicle. A MAVProxy module has access to all of the sensor information that your APM has, and can control all aspects of the flight.
 	\section{References}
 	\paragraph{•}
+	\textbf{[1]}\url{http://ardupilot.org/dev/docs/raspberry-pi-via-mavlink.html}
+	\textbf{[2]}\url{http://qgroundcontrol.org/mavlink/start}
 	\url{http://ardupilot.org/dev/docs/raspberry-pi-via-mavlink.html}
 		
-	\paragraph{}Everything mentioned above bit by bit is from the official documentation.
+	\paragraph{Everything mentioned above bit by bit is from the official documentation.}
 	
 \end{document}
 
