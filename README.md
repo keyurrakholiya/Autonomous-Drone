@@ -1,6 +1,6 @@
 ![e-Yantra Summer Internship](http://www.e-yantra.org/img/EyantraLogoLarge.png)
 ***
-![logo](https://www.google.co.in/search?q=iit+bombay+logo&espv=2&tbm=isch&imgil=MOO-AqJ4CJ4lBM%253A%253B3HEIwUIK8BFnqM%253Bhttp%25253A%25252F%25252Fwww.iitb.ac.in%25252F&source=iu&pf=m&fir=MOO-AqJ4CJ4lBM%253A%252C3HEIwUIK8BFnqM%252C_&usg=__No6XEQFiUoks93Fa1WuG4FJqCG0%3D&biw=1366&bih=599&ved=0ahUKEwiP6Ob2t9zNAhUOT48KHQd6Cf8QyjcIPw&ei=Hbd7V8_lDY6evQSH9KX4Dw#imgrc=MOO-AqJ4CJ4lBM%3A)
+![logo](https://github.com/eYSIP-2016/Autonomous-Drone/blob/master/iitbblack.jpg)
 ***
 # eYSIP-2016-Autonomous-Drone
 Through this project we want to make an Autonomous Drone that can travel from one point to another based on its GPS Location. This drone can be used for tracking objects and aerial photography when interfaced with an Object Tracking Camera system.
