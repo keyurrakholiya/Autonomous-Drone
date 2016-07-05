@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.16)  30 JUN 2016 11:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.16)  5 JUL 2016 15:40
 entering extended mode
-**./Interface_R-pi_with_APM.tex
-(Interface_R-pi_with_APM.tex
+**./Assembly.tex
+(Assembly.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9n> and hyphenation patterns for 69 languages loaded.
 
@@ -200,23 +200,23 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip43
-) (Interface_R-pi_with_APM.aux)
-\openout1 = `Interface_R-pi_with_APM.aux'.
+) (Assembly.aux)
+\openout1 = `Assembly.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 ("C:\Users\keyurRakholiya\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\su
 pp-pdf.mkii"
@@ -234,7 +234,7 @@ pp-pdf.mkii"
 \everyMPtoPDFconversion=\toks18
 )
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 19.
 
 ("C:\Users\keyurRakholiya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\
 nameref.sty"
@@ -246,163 +246,118 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count105
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
- (Interface_R-pi_with_APM.out)
-(Interface_R-pi_with_APM.out)
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
+ (Assembly.out) (Assembly.out)
 \@outlinefile=\write3
-\openout3 = `Interface_R-pi_with_APM.out'.
+\openout3 = `Assembly.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 23.
+(Font)              <12> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 23.
+(Font)              <8> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 23.
+(Font)              <6> on input line 21.
  [1
 
-{C:/Users/keyurRakholiya/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (I
-nterface_R-pi_with_APM.toc
+{C:/Users/keyurRakholiya/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (A
+ssembly.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 6.
+(Font)              <10.95> on input line 5.
 )
 \tf@toc=\write4
-\openout4 = `Interface_R-pi_with_APM.toc'.
+\openout4 = `Assembly.toc'.
 
  [2]
-<wiring.jpg, id=68, 1111.53296pt x 579.17789pt>
+<screw.jpg, id=73, 4047.12pt x 3035.34pt>
+File: screw.jpg Graphic file (type jpg)
+ <use screw.jpg>
+Package pdftex.def Info: screw.jpg used on input line 41.
+(pdftex.def)             Requested size: 142.21945pt x 142.2349pt.
+
+<mot.jpeg, id=74, 882.29625pt x 931.48pt>
+File: mot.jpeg Graphic file (type jpg)
+ <use mot.jpeg>
+Package pdftex.def Info: mot.jpeg used on input line 43.
+(pdftex.def)             Requested size: 142.26076pt x 142.26013pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<esc.jpg, id=75, 503.8825pt x 252.945pt>
+File: esc.jpg Graphic file (type jpg)
+ <use esc.jpg>
+Package pdftex.def Info: esc.jpg used on input line 53.
+(pdftex.def)             Requested size: 284.525pt x 142.26576pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<pcb.jpg, id=76, 95.79094pt x 95.79094pt>
+File: pcb.jpg Graphic file (type jpg)
+ <use pcb.jpg>
+Package pdftex.def Info: pcb.jpg used on input line 62.
+(pdftex.def)             Requested size: 199.1878pt x 199.1878pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<solder.jpg, id=77, 1284.8pt x 963.6pt>
+File: solder.jpg Graphic file (type jpg)
+ <use solder.jpg>
+Package pdftex.def Info: solder.jpg used on input line 70.
+(pdftex.def)             Requested size: 341.431pt x 184.93852pt.
+ [3]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<wiring.jpg, id=82, 519.9425pt x 303.1325pt>
 File: wiring.jpg Graphic file (type jpg)
  <use wiring.jpg>
-Package pdftex.def Info: wiring.jpg used on input line 39.
-(pdftex.def)             Requested size: 389.04237pt x 202.71529pt.
+Package pdftex.def Info: wiring.jpg used on input line 77.
+(pdftex.def)             Requested size: 341.43358pt x 184.94293pt.
 
-Overfull \hbox (29.04237pt too wide) in paragraph at lines 39--40
- [][] 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<frame.jpg, id=83, 1284.8pt x 963.6pt>
+File: frame.jpg Graphic file (type jpg)
+ <use frame.jpg>
+Package pdftex.def Info: frame.jpg used on input line 87.
+(pdftex.def)             Requested size: 341.431pt x 199.15665pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4 <./screw.jpg> <./mot.jpeg>] [5 <./esc.jpg> <./pcb.jpg>]
+<direction.jpg, id=98, 1027.84pt x 662.475pt>
+File: direction.jpg Graphic file (type jpg)
+ <use direction.jpg>
+Package pdftex.def Info: direction.jpg used on input line 100.
+(pdftex.def)             Requested size: 341.431pt x 199.1686pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<APM.jpg, id=99, 803.0pt x 473.77pt>
+File: APM.jpg Graphic file (type jpg)
+ <use APM.jpg>
+Package pdftex.def Info: APM.jpg used on input line 106.
+(pdftex.def)             Requested size: 481.80373pt x 284.26419pt.
+
+Overfull \hbox (121.80373pt too wide) in paragraph at lines 106--107
+ [] 
  []
 
-[3]
+[6 <./solder.jpg>]
 Missing character: There is no ‚ in font cmbx10!
 Missing character: There is no Ä in font cmbx10!
 Missing character: There is no ¢ in font cmbx10!
-
-Overfull \hbox (4.30087pt too wide) in paragraph at lines 46--47
-\OT1/cmr/m/n/10.95 into your RPi it is con-ve-nient to be able to con-nect from
- your Desk-top/Laptop
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 48.
-
-("C:\Users\keyurRakholiya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsc
-mr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 48.
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- <ip.jpg, id=73, 619.56468pt x 499.11469pt>
-File: ip.jpg Graphic file (type jpg)
- <use ip.jpg>
-Package pdftex.def Info: ip.jpg used on input line 59.
-(pdftex.def)             Requested size: 229.23534pt x 184.66953pt.
-
-Overfull \hbox (0.98547pt too wide) in paragraph at lines 56--61
-\OT1/cmr/m/n/10.95 screen, key-board, mouse con-nected) you can use the /sbin/i
-fconfig
- []
-
-[4 <./wiring.jpg>] <putty.png, id=81, 467.7475pt x 386.44376pt>
-File: putty.png Graphic file (type png)
-
-<use putty.png>
-Package pdftex.def Info: putty.png used on input line 66.
-(pdftex.def)             Requested size: 173.06386pt x 142.98195pt.
- [5 <./ip.jpg> <./putty.png (PNG copy)>]
-Overfull \hbox (0.95512pt too wide) in paragraph at lines 76--77
-[]\OT1/cmr/m/n/10.95 sudo apt-get in-stall screen python-wxgtk2.8 python-matplo
-tlib python-
- []
-
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-<adv1.png, id=89, 842.14626pt x 229.85875pt>
-File: adv1.png Graphic file (type png)
- <use adv1.png>
-Package pdftex.def Info: adv1.png used on input line 88.
-(pdftex.def)             Requested size: 311.58923pt x 85.04639pt.
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-
-<adv2.png, id=91, 301.125pt x 78.2925pt>
-File: adv2.png Graphic file (type png)
- <use adv2.png>
-Package pdftex.def Info: adv2.png used on input line 95.
-(pdftex.def)             Requested size: 255.95744pt x 66.54892pt.
- [6 <./adv1.png> <./adv2.png>]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
- <connect.png, id=103, 677.53125pt x 795.97375pt>
-File: connect.png Graphic file (type png)
- <use connect.png>
-Package pdftex.def Info: connect.png used on input line 123.
-(pdftex.def)             Requested size: 406.52188pt x 477.58794pt.
-
-Overfull \hbox (46.52188pt too wide) in paragraph at lines 123--124
- [][] 
- []
-
-[7]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
+ [7 <./wiring.jpg> <./APM.jpg>]
 Missing character: There is no ‚ in font cmbx10!
 Missing character: There is no Ä in font cmbx10!
 Missing character: There is no ¢ in font cmbx10!
- [8 <./connect.png (PNG copy)>]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-
-<command.png, id=114, 419.166pt x 113.223pt>
-File: command.png Graphic file (type png)
- <use command.png>
-Package pdftex.def Info: command.png used on input line 137.
-(pdftex.def)             Requested size: 314.37373pt x 84.91704pt.
 Missing character: There is no ‚ in font cmbx10!
 Missing character: There is no Ä in font cmbx10!
 Missing character: There is no ¢ in font cmbx10!
@@ -410,36 +365,40 @@ Missing character: There is no ‚ in font cmbx10!
 Missing character: There is no Ä in font cmbx10!
 Missing character: There is no ¢ in font cmbx10!
 
-Overfull \hbox (4.9146pt too wide) in paragraph at lines 145--148
- [][] \OT1/cmr/bx/n/10.95 [1][]$\OT1/cmtt/m/n/10.95 http : / / ardupilot . org 
-/ dev / docs / raspberry-[]pi-[]via-[]mavlink . html$[]
+Overfull \hbox (608.4835pt too wide) in paragraph at lines 118--119
+ [][] []$\OT1/cmtt/m/n/10.95 http : / / dronesforsaleclassified . com / product
+ / dji-[]hot-[]wheels-[]diy-[]same-[]paragraph-[]quadcopter-[]frame-[]quality-[
+]nylon-[]f450-[]v2-[]rack-[]integrated-[]pcb-[]board-[]diy-[]drone-[]quadrocopt
+er/$[] 
  []
 
+Missing character: There is no ‚ in font cmbx10!
+Missing character: There is no Ä in font cmbx10!
+Missing character: There is no ¢ in font cmbx10!
 
-Overfull \hbox (0.64659pt too wide) in paragraph at lines 145--148
-\OT1/cmr/bx/n/10.95 [2][]$\OT1/cmtt/m/n/10.95 http : / / qgroundcontrol . org /
- mavlink / start$[] []$http : / / ardupilot . org /$
+Overfull \hbox (189.07799pt too wide) in paragraph at lines 119--120
+ [][] []$\OT1/cmtt/m/n/10.95 http : / / www . flyingtech . co . uk / frames-[]p
+rops-[]parts-[]accessories / tarot-[]firefly-[]450-[]quadcopter-[]frame$[] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
-[9 <./command.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
- (Interface_R-pi_with_APM.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 151.
-Package rerunfilecheck Info: File `Interface_R-pi_with_APM.out' has not changed
-.
-(rerunfilecheck)             Checksum: ABA1C09EA69E217FF09FA2EC7D56B296;679.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
+[8 <./frame.jpg>] [9 <./direction.jpg>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
+ (Assembly.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
+Package rerunfilecheck Info: File `Assembly.out' has not changed.
+(rerunfilecheck)             Checksum: 0FCF4A6F7D59F783E8E1CECDD8F2B786;699.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
  ) 
 Here is how much of TeX's memory you used:
- 5107 strings out of 493634
- 77083 string characters out of 3131567
- 158648 words of memory out of 3000000
- 8434 multiletter control sequences out of 15000+200000
+ 5106 strings out of 493634
+ 76651 string characters out of 3131567
+ 159654 words of memory out of 3000000
+ 8428 multiletter control sequences out of 15000+200000
  8979 words of font info for 32 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 29i,7n,28p,608b,521s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,7n,28p,558b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/keyurRakholiya/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmbx10.pfb><C:/Users/keyurRakholiya/AppData/Local/Programs/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/keyurRakholiya/AppData/
@@ -447,11 +406,10 @@ Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ke
 yurRakholiya/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mr12.pfb><C:/Users/keyurRakholiya/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmr17.pfb><C:/Users/keyurRakholiya/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/keyurRakholiya/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Interface_R-pi_with_APM.pdf (9 pages, 396507 bytes).
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Assembly.pdf (9 pages, 2991023 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 166 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
+ 134 words of extra memory for PDF output out of 10000 (max. 10000000)
 

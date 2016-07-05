@@ -1,10 +1,3 @@
-##############################################################################
-# by running this code drone can be controlled manually from key board
-# it has also feed back from apm
-#you can also change the mode of flight
-#Author: keyur Rakholiya and Akshit Gandhi
-#date: 27 th july 2016
-##############################################################################
 from dronekit import connect, VehicleMode ,LocationGlobalRelative
 import time
 import getch
@@ -72,6 +65,7 @@ print "controll drone from keyboard"
 
 try:
     while True:
+#	print "sensors",vehicle.attitude
         key = getch.getch()
         if key == 'w':
             
@@ -151,15 +145,14 @@ try:
 		mode.set_servo(26,1800)
 		time.sleep(0.5)
 		print " mode is %s " % vehicle.mode.name
-		
 	#stabilize mode
-	elif key =='5' and th<1200
+	elif key =='5' and th<1200:
                 mode.set_servo(26,1200)
                 time.sleep(0.5)
                 print "mode is %s" % vehicle.mode.name
                 
 except KeyboardInterrupt:
-,	throttle.set_servo(27,1100)
+	throttle.set_servo(27,1100)
 	while vehicle.armed:
 		vehicle.armed = False
 	        print "disarming"
