@@ -25,21 +25,22 @@ The latest technology currently in markets is the Drone Technology, Drones can s
 
 ##Key Tasks
 ***
-> Calculations for selecting motors, propellors, flight controller, battery for a Quadcopter
-> Building and assembling the drone
-> Stabilizing the drone for manual as well as autonomous control
-> Interfacing Raspberry Pi with APM  flight controller
-> Develop python codes to achive autonomous behaviour of drone
+* Calculations for selecting motors, propellors, flight controller, battery for a Quadcopter
+* Building and assembling the drone
+* Stabilizing the drone for manual as well as autonomous control
+* Interfacing Raspberry Pi with APM  flight controller
+* Develop python codes to achive autonomous behaviour of drone
 
-##Documentation
-***
-> Detailed tutorials with actual component pictures on every module of the project have been uploaded on GitHub.
 
 ##Deliverables
 ***
-> An Autonomous Drone
-> Code and Documentation
-> Tutorials explaining individual modules
+* An Autonomous Drone
+* Code and Documentation
+* Tutorials explaining individual modules
+
+##Documentation
+***
+* Detailed tutorials with actual component pictures on every module of the project have been uploaded on GitHub.
 
 
 ##Contributors
@@ -49,9 +50,9 @@ The latest technology currently in markets is the Drone Technology, Drones can s
   
 ## Mentors
 ***
-  > Pushkar Raj
-  > Akshat Jain
-  > Rama Kumar
+  * Pushkar Raj
+  * Akshat Jain
+  * Rama Kumar
 
 ##License
 ***
