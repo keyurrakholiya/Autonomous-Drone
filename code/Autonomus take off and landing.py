@@ -1,8 +1,8 @@
 from dronekit import connect, VehicleMode ,LocationGlobalRelative
 import time
-
+from RPIO import PWM
 vehicle = connect('/dev/ttyAMA0', baud = 57600)
-
+throttle = PWM.Servo()
 
 print "\nSet Vehicle.mode = GUIDED (currently: %s)" % vehicle.mode.name
 while not vehicle.mode=='GUIDED':
@@ -37,31 +37,36 @@ while not vehicle.mode=='STABILIZE':
     vehicle.commands.upload()
 """
 print "\nSet Vehicle.mode =  (currently: %s)" % vehicle.mode.name
-"""
-while True:
-	print vehicle.rangefinder
-"""
+#while True:
+#	print vehicle.location.global_relative_frame.alt
+
 print "Taking off!"
 vehicle.simple_takeoff(2) # Take off to target altitude
 
-while True:
-        print " Altitude: ", vehicle.location.global_relative_frame.alt 
+try:
+	while True:
+		altitude = vehicle.location.global_relative_frame.alt
+		print " Altitude: ", altitude
+		print "sensors:",vehicle.attitude
+#	print "sonar" ,vehicle.rangefinder 
         #Break and return from function just below target altitude.        
-        if vehicle.location.global_relative_frame.alt>=2*0.95: 
-            print "Reached target altitude"
-            break
-        time.sleep(1)
-"""
-print "\nChannel overrides: %s" % vehicle.channels.overrides
-print "Set Ch1-Ch8 overrides to 110-810 respectively"
-vehicle.channels.overrides = {'1': 110, '2': 210,'3':1500,'4':410, '5':510,'6':610,'7':710,'8':810}
-print " Channel overrides: %s" % vehicle.channels.overrides
-"""
-time.sleep(10)
-while not vehicle.mode=='LAND':
-    vehicle.mode = VehicleMode('LAND')
-    vehicle.commands.upload()
+        	if vehicle.location.global_relative_frame.alt>=2*0.95: 
+	            	print "Reached target altitude"
+			print "Final Altitude:", vehicle.location.global_relative_frame.alt
+        	    	break
+        		time.sleep(1)
 
+#print "\nChannel overrides: %s" % vehicle.channels.overrides
+#print "Set Ch1-Ch8 overrides to 110-810 respectively"
+#vehicle.channels.overrides = {'1': 110, '2': 210,'3':1500,'4':410, '5':510,'6':610,'7':710,'8':810}
+#print " Channel overrides: %s" % vehicle.channels.overrides
+
+	time.sleep(2)
+	while not vehicle.mode=='LAND':
+    		vehicle.mode = VehicleMode('LAND')
+    		vehicle.commands.upload()
+except Keyboardinterrupt:
+	throttle.set_servo(27,1100)
 print "\nSet Vehicle.mode =  (currently: %s)" % vehicle.mode.name
 print vehicle.armed
 ##while vehicle.armed:
