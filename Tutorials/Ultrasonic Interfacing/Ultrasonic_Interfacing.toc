@@ -1,0 +1,19 @@
+\contentsline {section}{\numberline {1}Tutorial Name}{3}{section.1}
+\contentsline {paragraph}{•}{3}{section*.2}
+\contentsline {paragraph}{}{3}{section*.3}
+\contentsline {paragraph}{•}{3}{section*.4}
+\contentsline {paragraph}{•}{3}{section*.5}
+\contentsline {section}{\numberline {2}Prerequisites}{3}{section.2}
+\contentsline {section}{\numberline {3}Hardware Requirement}{3}{section.3}
+\contentsline {section}{\numberline {4}Theory and Description}{3}{section.4}
+\contentsline {subsection}{\numberline {4.1}Connecting to R-Pi}{3}{subsection.4.1}
+\contentsline {paragraph}{}{3}{section*.6}
+\contentsline {paragraph}{}{4}{section*.7}
+\contentsline {paragraph}{•}{4}{section*.8}
+\contentsline {paragraph}{•}{4}{section*.9}
+\contentsline {paragraph}{•}{4}{section*.10}
+\contentsline {subsection}{\numberline {4.2}Python Script}{4}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Accuracy}{4}{subsection.4.3}
+\contentsline {section}{\numberline {5}References}{5}{section.5}
+\contentsline {paragraph}{•}{5}{section*.11}
+\contentsline {paragraph}{•}{5}{section*.12}
