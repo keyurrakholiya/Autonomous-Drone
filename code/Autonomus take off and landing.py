@@ -5,7 +5,7 @@
 # Author  : Keyur Rakholiya												#
 # Author  : Akshit Gandhi												#
 #															#
-# Drone will takeoff after running this code. and it will goes to cirtain height(adjustable) and after cirtain time it  #
+# Drone will takeoff after running this code. and it will goes to certain height(adjustable) and after certain time it  #
 # will land on the ground.												#
 #															#
 # Requrinment: Refer Tutorial Folder											#
