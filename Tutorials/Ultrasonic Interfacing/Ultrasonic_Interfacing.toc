@@ -12,8 +12,8 @@
 \contentsline {paragraph}{•}{4}{section*.8}
 \contentsline {paragraph}{•}{4}{section*.9}
 \contentsline {paragraph}{•}{4}{section*.10}
-\contentsline {subsection}{\numberline {4.2}Python Script}{4}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Accuracy}{4}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.2}Python Script}{5}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Accuracy}{5}{subsection.4.3}
 \contentsline {section}{\numberline {5}References}{5}{section.5}
 \contentsline {paragraph}{•}{5}{section*.11}
-\contentsline {paragraph}{•}{5}{section*.12}
+\contentsline {paragraph}{•}{6}{section*.12}
