@@ -1,3 +1,14 @@
+##########################################################################################################################
+# Project : Autonomous Drone												#
+# Hardware: Raspberry pi ,Arducopter , laptop or desktop ,ultrasonic sensor HC-SR04					#
+#	  : Arducopter(APM2.6)												#
+# Author  : Keyur Rakholiya												#
+# Author  : Akshit Gandhi												#
+#															#
+# by using this code, quadcopter can controlled by using laptop keyboard. we can also change the different modes also   #												#
+#															#
+# Requrinment: Refer Tutorial Folder											#
+#########################################################################################################################
 from dronekit import connect, VehicleMode ,LocationGlobalRelative
 import time
 import getch
@@ -8,13 +19,15 @@ print "connecting to vehicle...."
 vehicle = connect('/dev/ttyAMA0', baud = 57600)
 print "connected"
 
-print "\nSet Vehicle.mode = GUIDED (currently: %s)" % vehicle.mode.name
+#changing vehicle mode to stabilize
+print "\nSet Vehicle.mode = (currently: %s)" % vehicle.mode.name
 while not vehicle.mode=='STABILIZE':
     vehicle.mode = VehicleMode('STABILIZE')
     vehicle.flush()
 
 print "vehicle mode: %s" % vehicle.mode
 
+# ARMING the vehicle
 vehicle.armed = True
 while not vehicle.armed:
     vehicle.armed = True
@@ -65,7 +78,7 @@ print "controll drone from keyboard"
 
 try:
     while True:
-#	print "sensors",vehicle.attitude
+# waiting for key strokes
         key = getch.getch()
         if key == 'w':
             
@@ -160,18 +173,3 @@ except KeyboardInterrupt:
 		vehicle.flush()
 print "DISARMED"
 vehicle.close()
-##curses.endwin()
-
-##while not vehicle.mode=='LAND':
-##    vehicle.mode = VehicleMode('LAND')
-##    vehicle.commands.upload()
-##
-##print "\nSet Vehicle.mode =  (currently: %s)" % vehicle.mode.name
-##print vehicle.armed
-####while vehicle.armed:
-####    vehicle.armed = False
-####    print "disarming"
-####    vehicle.flush()
-####print "DISARMED"
-##vehicle.close()
-##print vehicle.armed
