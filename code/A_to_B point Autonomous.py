@@ -1,3 +1,16 @@
+##########################################################################################################################
+# Project : Autonomous Drone											                                               	#
+# Hardware: Raspberry pi ,Arducopter , laptop or desktop ,ultrasonic sensor HC-SR04					                    #
+#	  : Arducopter(APM2.6)												                                                #
+# Author  : Keyur Rakholiya												                                                #
+# Author  : Akshit Gandhi												                                                #
+#															                                                            #
+#by running this code, drone will go point A to point B autonomously.												    #
+#															                                                            #
+# Requrinment: Refer Tutorial Folder											                                        #
+#########################################################################################################################
+
+
 from dronekit import connect, VehicleMode, LocationGlobalRelative
 import time
 
