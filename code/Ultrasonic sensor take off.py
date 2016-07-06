@@ -1,3 +1,16 @@
+##########################################################################################################################
+# Project : Autonomous Drone												#
+# Hardware: Raspberry pi ,Arducopter , laptop or desktop ,ultrasonic sensor HC-SR04					#
+#	  : Arducopter(APM2.6)												#
+# Author  : Keyur Rakholiya												#
+# Author  : Akshit Gandhi												#
+#															#
+# by using this code, quadcopter will takeoff using ultra sonic sensor. reach some certain height and hold the altitude #
+# with use of barometer.												#
+#															#
+# Requrinment: Refer Tutorial Folder											#
+#########################################################################################################################
+
 import RPi.GPIO as GPIO
 import time
 import threading
@@ -5,10 +18,10 @@ from dronekit import connect, VehicleMode ,LocationGlobalRelative
 import getch
 from RPIO import PWM
 
-
+#######################################################################################################################
 class sonar1(threading.Thread):
         global distance
-        def run(self):
+        def run(self):					#function will return distance 
                 while True:
 			GPIO.output(TRIG,True)
                 	time.sleep(0.00001)
@@ -26,12 +39,12 @@ class sonar1(threading.Thread):
                 	distance = pulse_duration * 17000
 
                 	distance = round(distance, 2)
-                	distance = distance/100
-                #	print "Distance:",distance,"m"
+                	distance = distance/100		#returning destance in meter
              		time.sleep(0.7) 
                 	return distance
 
-                
+#############################################################################################
+#seetings pin as input output
 GPIO.setmode(GPIO.BCM)
 TRIG = 20 
 ECHO = 16
@@ -47,18 +60,20 @@ print "Waiting For Sensor To Settle"
 time.sleep(2)
 
 
-####################################################
+#############################################################################################
 print "connecting to vehicle...."
 vehicle = connect('/dev/ttyAMA0', baud = 57600)
 print "connected"
 
-print "\nSet Vehicle.mode = GUIDED (currently: %s)" % vehicle.mode.name
+#change vehicle mode to stabilixe first
+print "\nSet Vehicle.mode =  (currently: %s)" % vehicle.mode.name
 while not vehicle.mode=='STABILIZE':
     vehicle.mode = VehicleMode('STABILIZE')
     vehicle.flush()
 
 print "vehicle mode: %s" % vehicle.mode
 
+# ARMING the vehicle
 vehicle.armed = True
 while not vehicle.armed:
     vehicle.armed = True
@@ -94,12 +109,8 @@ try:
                         print th
                         time.sleep(1.3)
                         print "Current Height" ,distance
+		#loop will be brake when it reaches the desire range of height  and mode will changed to ALT_HOLD                       
                 elif distance > 0.65 and distance < 1.2:
-			#th = th + 10
-                        #throttle.set_servo(27,th)
-                	#time.sleep(1.2)
-                        #print th
-                        #print "Current Height" ,distance
                         mode.set_servo(26,1550) #setting in alt-hold mode
                         time.sleep(0.5)
 			print " mode is %s" % vehicle.mode.name
@@ -109,6 +120,8 @@ try:
                         th = th - 10
                         throttle.set_servo(27,th)
                         
+                        
+# if keyboard intrerupt will generate vehicle goes to land mode                        
 except KeyboardInterrupt:
         mode.set_servo(26,1800)
         print "land"
@@ -119,7 +132,7 @@ except KeyboardInterrupt:
 		vehicle.flush()
 	print "Disarmed"
 
-
+#after 5 seconds ,vehicle goes in to LAND mode
 time.sleep(5)
 print "land"
 mode.set_servo(26,1800)
